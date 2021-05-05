@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <EditText
@@ -26,6 +27,13 @@
         android:layout_height="wrap_content"
         android:onClick="sendOnChannel2"
         android:text="Send on Channel 2" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="sendOnChannel3"
+        android:text="Send on Channel 3" />
 
 
 </androidx.appcompat.widget.LinearLayoutCompat>
